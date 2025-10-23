@@ -57,3 +57,22 @@ When the tool asks for `src:` and `dst:`
 - If you choose **Python → Base64**, after entering `src:` and `dst:`, the tool will also ask for `var (payload):`.
 This is the variable name that will store the Base64-encoded data in the obfuscated Python script.
 You can press Enter to use the default name `payload`.
+
+If you choose `Bash obfuscate`, after entering `src:` and `dst:` the tool will ask `auto install? (y/N):`. If you type `y` the tool will try to install `bash-obfuscate` using `npm` (this may require Node.js/npm). press **Enter** or type `n` to skip automatic installation.
+
+## Command-Line Mode
+
+- **Obfuscate Python to Base64:**
+```bash
+python -m codeshade py-base64 src.py dst.py --var payload
+```
+
+- **Obfuscate Python to Emoji:**
+```bash
+python -m codeshade py-emoji src.py dst.py
+```
+- **Obfuscate Bash script:**
+
+```bash
+python -m codeshade bash-obf script.sh output.sh --auto-install
+```
