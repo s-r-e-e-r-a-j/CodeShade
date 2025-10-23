@@ -91,3 +91,7 @@ python3 -m codeshade bash-obf src.sh dst.sh --auto-install
 - `dst.sh` — the file CodeShade will create (the obfuscated output, example: `out.sh`).
 
 - `--auto-install` — if `bash-obfuscate` is not found, the tool will run `npm install -g bash-obfuscate` to install it automatically. This requires Node.js and npm to be installed
+
+## License
+This project is licensed under the MIT License
+
