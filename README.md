@@ -45,4 +45,4 @@ You can choose options like:
 
 3) Bash obfuscate
 
-0) Exit
+5) Exit
