@@ -47,3 +47,9 @@ You can choose options like:
 
 0) Exit
 ```
+
+When the tool asks for `src:` and `dst:`
+
+- `src:` = type the path to the original file you want to obfuscate (for example `hello.py` or `script.sh`).
+
+- `dst:` = type the path where the obfuscated file should be saved (for example `hello_b64.py` or `out.sh`).
