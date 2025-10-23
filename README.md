@@ -53,3 +53,7 @@ When the tool asks for `src:` and `dst:`
 - `src:` = type the path to the original file you want to obfuscate (for example `hello.py` or `script.sh`).
 
 - `dst:` = type the path where the obfuscated file should be saved (for example `hello_b64.py` or `out.sh`).
+
+- If you choose **Python → Base64**, after entering `src:` and `dst:`, the tool will also ask for `var (payload):`.
+This is the variable name that will store the Base64-encoded data in the obfuscated Python script.
+You can press Enter to use the default name `payload`.
