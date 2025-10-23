@@ -36,13 +36,3 @@ Run CodeShade interactively:
 ```bash
 python -m codeshade --interactive
 ```
-
-You can choose options like:
-
-1) Python → base64
-
-2) Python → emoji
-
-3) Bash obfuscate
-
-5) Exit
