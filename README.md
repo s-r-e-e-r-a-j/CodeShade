@@ -66,13 +66,26 @@ You can press Enter to use the default name `payload`.
 ```bash
 python -m codeshade py-base64 src.py dst.py --var payload
 ```
+- `src.py` — the original file you want to obfuscate (example: `hello.py`).
+
+- `dst.py` — the file CodeShade will create (the obfuscated output, example: `hello_b64.py`).
+
+- `--var` — (python to base64 only) the Python variable name used inside the wrapper. This variable stores the Base64‑encoded data in the obfuscated script. Default: `payload`.
 
 - **Obfuscate Python to Emoji:**
 ```bash
 python -m codeshade py-emoji src.py dst.py
 ```
+- `src.py` — the original file you want to obfuscate (example: `hello.py`).
+
+- `dst.py` — the file CodeShade will create (the obfuscated output, example: `hello_emoji.py`).
+
 - **Obfuscate Bash script:**
 
 ```bash
-python -m codeshade bash-obf script.sh output.sh --auto-install
+python -m codeshade bash-obf src.sh dst.sh --auto-install
 ```
+
+- `src.sh` — the original file you want to obfuscate (example: `script.sh`).
+
+- `dst.sh` — the file CodeShade will create (the obfuscated output, example: `out.sh`).
