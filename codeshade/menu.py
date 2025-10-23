@@ -4,7 +4,17 @@ from .bash_obf import obf_bash
 from .core import C
 
 def menu() -> None:
-    print(C.cyan + "CodeShade" + C.reset)
+    print(C.cyan)
+    print("""r
+       _____          _       _____ _               _      
+      / ____|        | |     / ____| |             | |     
+     | |     ___   __| | ___| (___ | |__   __ _  __| | ___ 
+     | |    / _ \ / _` |/ _ \\___ \| '_ \ / _` |/ _` |/ _ \
+     | |___| (_) | (_| |  __/____) | | | | (_| | (_| |  __/
+      \_____\___/ \__,_|\___|_____/|_| |_|\__,_|\__,_|\___|
+                                                                                                           
+     """)
+    print(C.reset)
     while True:
         print(C.blue + "1) Python -> base64" + C.reset)
         print(C.blue + "2) Python -> emoji" + C.reset)
