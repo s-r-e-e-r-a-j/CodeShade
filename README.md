@@ -58,7 +58,7 @@ When the tool asks for `src:` and `dst:`
 This is the variable name that will store the Base64-encoded data in the obfuscated Python script.
 You can press Enter to use the default name `payload`.
 
-If you choose `Bash obfuscate`, after entering `src:` and `dst:` the tool will ask `auto install? (y/N):`. If you type `y` the tool will try to install `bash-obfuscate` using `npm` (this may require Node.js/npm). press **Enter** or type `n` to skip automatic installation.
+- If you choose `Bash obfuscate`, after entering `src:` and `dst:` the tool will ask `auto install? (y/N):`. If you type `y` the tool will try to install `bash-obfuscate` using `npm` (this may require Node.js/npm). press **Enter** or type `n` to skip automatic installation.
 
 ## Command-Line Mode
 
