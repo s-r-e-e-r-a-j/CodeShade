@@ -38,7 +38,7 @@ python -m codeshade --interactive
 ```
 
 You can choose options like:
-
+```bash
 1) Python → base64
 
 2) Python → emoji
@@ -46,3 +46,4 @@ You can choose options like:
 3) Bash obfuscate
 
 0) Exit
+```
