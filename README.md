@@ -62,7 +62,7 @@ You can press Enter to use the default name `payload`.
 
 ## Command-Line Mode
 
-- **Obfuscate Python to Base64:**
+### Obfuscate Python to Base64:
 ```bash
 python -m codeshade py-base64 src.py dst.py --var payload
 ```
@@ -72,7 +72,7 @@ python -m codeshade py-base64 src.py dst.py --var payload
 
 - `--var` — (python to base64 only) the Python variable name used inside the wrapper. This variable stores the Base64‑encoded data in the obfuscated script. Default: `payload`.
 
-- **Obfuscate Python to Emoji:**
+### Obfuscate Python to Emoji:
 ```bash
 python -m codeshade py-emoji src.py dst.py
 ```
@@ -80,7 +80,7 @@ python -m codeshade py-emoji src.py dst.py
 
 - `dst.py` — the file CodeShade will create (the obfuscated output, example: `hello_emoji.py`).
 
-- **Obfuscate Bash script:**
+### Obfuscate Bash script:
 
 ```bash
 python -m codeshade bash-obf src.sh dst.sh --auto-install
