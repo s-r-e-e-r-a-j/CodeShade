@@ -28,6 +28,8 @@ cd CodeShade
 ```bash
 npm install -g bash-obfuscate
 ```
+## Note
+- You can execute the obfuscated script directly to run the original code.
 
 ## Usage
 **Interactive Mode**
