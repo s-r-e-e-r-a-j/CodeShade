@@ -28,8 +28,11 @@ cd CodeShade
 ```bash
 npm install -g bash-obfuscate
 ```
+
 ## Note
-- You can execute the obfuscated script directly to run the original code.
+- You can execute the obfuscated script to run the original code.
+  - Python: `python3 <obfuscated>.py`
+  - Bash: `bash <obfuscated>.sh`
 
 ## Usage
 **Interactive Mode**
