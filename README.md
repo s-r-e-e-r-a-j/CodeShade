@@ -34,7 +34,7 @@ npm install -g bash-obfuscate
 
 Run CodeShade interactively:
 ```bash
-python -m codeshade --interactive
+python3 -m codeshade --interactive
 ```
 
 You can choose options like:
@@ -64,7 +64,7 @@ You can press Enter to use the default name `payload`.
 
 ### Obfuscate Python to Base64:
 ```bash
-python -m codeshade py-base64 src.py dst.py --var payload
+python3 -m codeshade py-base64 src.py dst.py --var payload
 ```
 - `src.py` — the original file you want to obfuscate (example: `hello.py`).
 
@@ -74,7 +74,7 @@ python -m codeshade py-base64 src.py dst.py --var payload
 
 ### Obfuscate Python to Emoji:
 ```bash
-python -m codeshade py-emoji src.py dst.py
+python3 -m codeshade py-emoji src.py dst.py
 ```
 - `src.py` — the original file you want to obfuscate (example: `hello.py`).
 
@@ -83,7 +83,7 @@ python -m codeshade py-emoji src.py dst.py
 ### Obfuscate Bash script:
 
 ```bash
-python -m codeshade bash-obf src.sh dst.sh --auto-install
+python3 -m codeshade bash-obf src.sh dst.sh --auto-install
 ```
 
 - `src.sh` — the original file you want to obfuscate (example: `script.sh`).
