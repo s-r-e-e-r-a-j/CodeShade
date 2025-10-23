@@ -5,7 +5,7 @@ from .core import C
 
 def menu() -> None:
     print(C.cyan)
-    print("""r
+    print(r"""
        _____          _       _____ _               _      
       / ____|        | |     / ____| |             | |     
      | |     ___   __| | ___| (___ | |__   __ _  __| | ___ 
