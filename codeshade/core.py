@@ -1,3 +1,6 @@
+# Developer: Sreeraj
+# GitHub: https://github.com/s-r-e-e-r-a-j
+
 from pathlib import Path
 import subprocess
 from typing import List, Any, Dict
