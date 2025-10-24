@@ -1,3 +1,6 @@
+# Developer: Sreeraj
+# GitHub: https://github.com/s-r-e-e-r-a-j
+
 from pathlib import Path
 import base64
 from .core import read_text, read_bytes, write_text, C
