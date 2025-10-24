@@ -1,3 +1,6 @@
+# Developer: Sreeraj
+# GitHub: https://github.com/s-r-e-e-r-a-j
+
 from pathlib import Path
 from .python_obf import to_base64, to_emoji
 from .bash_obf import obf_bash
