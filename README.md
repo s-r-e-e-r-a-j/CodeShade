@@ -35,11 +35,6 @@ cd CodeShade
 npm install -g bash-obfuscate
 ```
 
-## Note
-- You can execute the obfuscated script to run the original code.
-  - Python: `python3 <obfuscated>.py`
-  - Bash: `bash <obfuscated>.sh`
-
 ## Usage
 **Interactive Mode**
 
@@ -102,6 +97,11 @@ python3 -m codeshade bash-obf src.sh dst.sh --auto-install
 - `dst.sh` — the file CodeShade will create (the obfuscated output, example: `out.sh`).
 
 - `--auto-install` — if `bash-obfuscate` is not found, the tool will run `npm install -g bash-obfuscate` to install it automatically. This requires Node.js and npm to be installed
+
+## Note
+- You can execute the obfuscated script to run the original code.
+  - Python: `python3 <obfuscated>.py`
+  - Bash: `bash <obfuscated>.sh`
 
 ## License
 This project is licensed under the MIT License
