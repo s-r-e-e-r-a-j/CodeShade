@@ -17,7 +17,7 @@
 ## Compatibility
 
 - Obfuscation works on all systems.
-- Needs Python 3.9+.
+- Needs Python 3.10+.
 - To create obfuscated Bash files you need Node/npm. to run the obfuscated `.sh` use the `bash` interpreter (for example `bash out.sh` on Linux or macOS, or Bash from WSL/Git Bash on Windows).
 
 ## Installation
